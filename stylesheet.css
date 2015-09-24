@@ -10,12 +10,10 @@ body {
 	
 	
 }
-#wrapper{
-	margin-right:200px;
-}
+
 #header{
 	top:0;
-	background-color: #8C001A;
+	/*background-color: #8C001A;*/
 	height:1.2em;
 	color:000000;
 	width:100%;
