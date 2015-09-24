@@ -1,0 +1,89 @@
+*{
+	text-align:center;
+	color:#ffffff;
+	background-color: #006666;
+	margin:0;				/*helps make header clean*/
+
+}
+h1{
+	background-color: #acbfbb;
+	margin:0;				/*helps make header clean*/
+
+}
+a:link{
+    text-decoration:none;
+    color:#008B45;
+}
+#pic{
+	display: block;
+	height:500px;
+	width:700px;
+	margin:5px 5px 20px 5px;
+	font-size:1.5em;
+	background-color:#FFFFFF;
+}
+#pc{
+	letter-spacing:6px;
+}
+#ds{
+	letter-spacing:6px;
+}
+.info{
+	right:0;
+	top:0;
+	display:block;
+	padding:20px 40px;
+	float:right;
+	width:550px;
+	height:500px;
+	display:inline;
+}
+
+.footer{
+	display:absolute;
+	margin:0;	
+	background-color: #acbfbb;
+	font-size:1em;
+	height:2em;
+	color:000000;
+	width:100%;
+}
+#PCinfo{
+	display:none;
+}
+#XBinfo{
+	display:none;
+}
+#WiiUinfo{
+	display:none;
+}
+#PS4info{
+	display:none;
+}
+#DSinfo{
+	display:none;
+}
+#tDSinfo{
+	display:none;
+}
+#GBAinfo{
+	display:none;
+}
+#GBCinfo{
+	display:none;
+}
+#GCinfo{
+	display:none;
+}
+#Wiiinfo{
+	display:none;
+}
+#PSPinfo{
+	display:none;
+}
+#Retroinfo{
+	display:none;
+}
+#infoinfo{
+	display:none;
+}

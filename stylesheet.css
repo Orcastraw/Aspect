@@ -1,0 +1,97 @@
+*{
+	text-align:center;
+	color:#ffffff;
+	
+	margin:0;				/*helps make header clean*/
+}
+html,
+body {
+	background-color: #006666;
+	
+	
+}
+#wrapper{
+	margin-right:200px;
+}
+#header{
+	top:0;
+	background-color: #8C001A;
+	height:1.2em;
+	color:000000;
+	width:100%;
+	font-size:2em;
+}
+
+#buttons{
+	padding: 1em 10em;
+	display: block;
+	margin:5px 5px 20px 5px;
+	font-size:1.5em;
+	/*background-color:#000000;*/
+
+}
+
+.info{
+	/*background-color:#8C001A;*/
+	display:block;
+	padding:40px 40px;
+	line-height: 170%;
+
+}
+
+.moo{
+	padding-left: 150px;
+	padding-right: 150px;
+	width:720px;
+}
+
+div.table {
+    }
+th {
+    height: 50px;
+    font-weight:normal;
+
+}
+
+#pc{
+	display:none;
+}
+
+#xb1{
+	display:none;
+}
+#wiiu{
+	display:none;
+}
+
+#ps4{
+	display:none;
+}
+#ds{
+	display:none;
+}
+
+#tds{
+	display:none;
+}
+#gba{
+	display:none;
+}
+
+#gbc{
+	display:none;
+}
+#gc{
+	display:none;
+}
+
+#wii{
+	display:none;
+}
+#psp{
+	display:none;
+}
+
+#n64{
+	display:none;
+}
