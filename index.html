@@ -5,67 +5,31 @@
 	<script type="text/javascript" src="jquery.js"></script> 
 	<script src="javascript.js"></script> 
 <title>Console Info</title>
-</head>
-<body>
 
 <div id="header">
 <img src="logo.png"/>
 </div>
 
-<table width="100%">
-<tr>
-
-<td>
-<div id="buttons" style="
-    padding-right: 200px;
-    padding-left: 120px;
-    padding-top:60px
-">
-		<table style="width:720px">
-		<tr>
-		<th>PC</th>
-		<th>360/One</th>
-		<th>WiiU</th>
-		<th>PS3/4</th>
-		</tr>
-		<tr >
-		<td class="pc"><img src="pc/mouse.png" width="130px" height="130px" /></td>
-		<td class="xb1"><img src="xb1/xb1.png" width="130px" height="130px" /></td>
-		<td class="wiiu"><img src="wiiu/wiiu.png" width="130px" height="130px" /></td>
-		<td class="ps4"><img src="ps4/ps4.png" width="130px" height="130px" /></td>
-		</tr>
-		<tr>
-		<th>DS</th>
-		<th>3DS</th>
-		<th>GBA</th>
-		<th>GBC</th>
-		</tr>
-		<tr>
-		<td class="ds"><img src="ds/ds.png" width="130px" height="130px" /></td>
-		<td class="3ds"><img src="3ds/3ds.png" width="130px" height="130px" /></td>
-		<td class="gba"><img src="gba/gba.png" width="130px" height="130px" /></td>
-		<td class="gbc"><img src="gbc/gbc.png" width="130px" height="130px" /></td>
-		</tr>
-		<tr>
-		<th>Gamecube</th>
-		<th>Wii</th>
-		<th>PSP/Vita</th>
-		<th>Retro</th>
-		</tr>
-		<tr>
-		<td class="gc"><img src="gamecube/gamecube.png" width="130px" height="130px" /></td>
-		<td class="wii"><img src="wii/wii.png" width="130px" height="130px" /></td>
-		<td class="psp"><img src="psp/psp.png" width="130px" height="130px" /></td>
-		<td class="n64"><img src="retro/snes.png" width="130px" height="130px" /></td>
-		</tr>
-		</table>  
+<div id="buttons">
+		<ul style="list-style:none;">
+		<li class="pc"><img src="pc/mouse.png" width="40px" height="40px" />PC</li>
+		<li class="xb1"><img src="xb1/xb1.png" width="40px" height="40px" />Xbox</li>
+		<li class="wiiu"><img src="wiiu/wiiu.png" width="40px" height="40px" />Wii U</li>
+		<li class="ps4"><img src="ps4/ps4.png" width="40px" height="40px" />PS4/3</li>
+		<li class="ds"><img src="ds/ds.png" width="40px" height="40px" />DS</li>
+		<li class="3ds"><img src="3ds/3ds.png" width="40px" height="40px" />3DS</li>
+		<li class="gba"><img src="gba/gba.png" width="40px" height="40px" />GBA</li>
+		<li class="gbc"><img src="gbc/gbc.png" width="40px" height="40px" />GBC</li>
+		<li class="gc"><img src="gamecube/gamecube.png" width="40px" height="40px" />GC</li>
+		<li class="wii"><img src="wii/wii.png" width="40px" height="40px" />Wii</li>
+		<li class="psp"><img src="psp/psp.png" width="40px" height="40px" />PSP</li>
+		<li class="n64"><img src="retro/snes.png" width="40px" height="40px" />Retro</li>
+		</ul>
 
 
 </div>
 
-</td>
 
-<td style="width:620px">
 <div id="rem" class="info">
 <p >
  This is Aspect Tool, which will help you stream games at the proper and highest quality for its pixel ratios.
@@ -113,9 +77,12 @@ Both DS screens are in 4:3, and should look like this.<img src="ds/dsIMG.png" id
     </div>
 
 <div id="tds" class="info" >
-<p >
-The 3DS' 2 screens are differing ratios, with the top being a wider, 5:3 aspect ratio and the bottom being in 4:3.<img src="3ds/3ds3.png" id="tdspic"/>
-</p>
+<div class="details">
+	<p >
+	The 3DS' 2 screens are differing ratios, with the top being a wider, 5:3 aspect ratio and the bottom being in 4:3.
+	</p>
+</div>
+<img src="3ds/3ds3.png" class="pic" id="tdspic"/>
 </div>
 
 <div id="gba" class="info" >
@@ -140,9 +107,9 @@ When streaming or capturing the game it's fine to show it with either the origin
 <div id="gc" class="info" >
 <p >
 <img src="gamecube/gcIMG.png" id="gcpic"/>
-Most Gamecube games are in 4:3 and some support 16:9.
+Gamecube games are special in that they have largely UNIQUE aspect ratios.
 <figcaption>
-However certain games have unique aspect ratios to be cautious of, such as Super Smash Bros Melee and The Legend of Zelda: The Wind Waker.
+Some GameCube games also support 16:9, which is easy and nice, and sadly, very rare.
 </figcaption>
 </p>
 </div>
@@ -164,17 +131,24 @@ PSP games are in 30:17, which is 2 pixels short of 16:9. The difference is minor
 </div>
 
 <div id="n64" class="info" >
-<p >
-Most retro games are 4:3, and should look like this.<img src="retro/ret1.png" id="n64pic"/>
-</p>
-<figcaption>
-To see a specific example of your game console, click a button below.
-</figcaption>
-</p></td>
-  </tr>
-</table>
+	<div id="text">
+		<p>
+		Most retro games are 4:3, and should look like this. Once you get your game set up, you can stream it looking like this.
+		</p>
+	</div>
+	<div>
+		
+		<img src="retro/ret1.png" id="n64pic"/>
+		<img src="arrow.png" id="arrow"/>
+		<img src="example/retro_layout.png" id="n64layout"/>
+	</div>
+</div>
 
 
 
-</body>
+<div id="footer">
+<a href="https://www.twitter.com/orcastraw"/>
+<img src="twitter.png" width="30px" height="30px"/>
+</div>
+
 </html>

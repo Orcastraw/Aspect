@@ -3,7 +3,6 @@ $(document).ready(function() {
      $('#rem').hide();
     });
 });
-
 $(document).ready(function() {
     $('.xb1,.n64,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#pc').hide();
@@ -151,7 +150,8 @@ var gbcPics = new Array("gbc/gbc1.png","gbc/gbc2.png","gbc/gbc3.png")
 var gcPics = new Array("retro/ret1.png","retro/ret2.png")
 var wiiPics = new Array("retro/ret1.png","retro/ret2.png")
 var pspPics = new Array("psp/psp1.png","psp/psp2.png","psp/psp3.png")
-var retPics = new Array("retro/ret1.png","retro/ret2.png")
+var retPics = new Array("retro/ret1.png","retro/ret2.png","retro/ret3.png","retro/ret4.png")
+var retLayout = new Array("example/retro_layout1.png","example/retro_layout2.png","example/retro_layout3.png","example/retro_layout4.png")
 
 function ranPic(system){
     if(system=="pc"){
@@ -226,6 +226,7 @@ function ranPic(system){
         var ran = Math.floor(Math.random() * retPics.length);
         console.log(ran)
         document.getElementById("n64pic").src = retPics[ran];
+        document.getElementById("n64layout").src = retLayout[ran];
     }
     
 }
