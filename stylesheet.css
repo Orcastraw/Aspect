@@ -30,7 +30,7 @@ body {
 }
 li{
 	margin-bottom: 10px;
-
+    text-align:left;
 }
 #arrow{
     padding-bottom: 150px;
