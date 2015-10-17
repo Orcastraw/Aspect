@@ -1,15 +1,17 @@
 *{
 	text-align:center;
-	
 	margin:0;				/*helps make header clean*/
-	
-
 }
+
 html,
 body {
 	background-color: #383838;	
-	
 }
+
+#footer{
+	float:bottom;
+}
+
 #header{
 	top:0;
 	background-color: #888888;
@@ -19,42 +21,60 @@ body {
 
 }
 
+
 #buttons{
 	display: block;
 	background-color: #888888;
-	width:8%;
+	width:6%;
 	position:absolute;
 	color:black;
+	margin-left: 200px;
 
 
 }
+ul{
+	list-style:none;padding-left: 0px;
+}
 li{
 	margin-bottom: 10px;
+<<<<<<< Updated upstream
     text-align:left;
+=======
+	 text-align:left;
+
+>>>>>>> Stashed changes
 }
 #arrow{
     padding-bottom: 150px;
 }
 
 
+
+li button{
+	height:40px;
+	background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    padding-left: 46px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */ 
+    font-size:0.9em;
+}
+
+
 .info{
 	/*background-color:#8C001A;*/
 	display:inline-block;
-	padding:40px 40px;
 	line-height: 170%;
 	font-size: 1.1em;
-	width:95%;
+	width:65%;
 	margin: 0 auto;
 	margin-right: 0px;
 	height:100%;
 	color:#ffffff;
-}
-.details{
-	background-color:red;
-	width:20%;
-}
-.footer{
-	margin: 0 auto;
+	padding-right: 200px;
+	padding-top:40px;
 }
 
 div.table {
@@ -65,45 +85,71 @@ th {
 
 }
 
-#pc{
-	display:none;
+.intro{
+	padding-left: 200px;
 }
 
-#xb1{
-	display:none;
-}
-#wiiu{
-	display:none;
-}
-
-#ps4{
-	display:none;
-}
-#ds{
-	display:none;
+.details{
+	/*background-color:red;*/
+	width:28em;
+	float:left;
 }
 
-#tds{
-	display:none;
-}
-#gba{
-	display:none;
-}
-
-#gbc{
-	display:none;
-}
-#gc{
-	display:none;
+.examples{
+	/*background-color: blue;*/
+	width:26em;
+	float:right;
 }
 
-#wii{
-	display:none;
+
+.pc{	background-image:url(pc/tmouse.png);	
+		background-repeat: no-repeat;
 }
-#psp{
-	display:none;
+.xb1{	background-image:url(xb1/txb1.png);
+		background-repeat: no-repeat;
+}
+.wiiu{	background-image:url(wiiu/twiiu.png);
+		background-repeat: no-repeat;
+}
+.ps4{	background-image:url(ps4/tps4.png);
+		background-repeat: no-repeat;
+}
+.ds{	background-image:url(ds/tds.png);
+		background-repeat: no-repeat;
+}
+.tds{	background-image:url(3ds/t3ds.png);
+		background-repeat: no-repeat;
+}
+.gba{	background-image:url(gba/tgba.png);	
+		background-repeat: no-repeat;
+}
+.gbc{	background-image:url(gbc/tgbc.png);	
+		background-repeat: no-repeat;
+}
+.gc{	background-image:url(gamecube/tgamecube.png);
+		background-repeat: no-repeat;
+}
+.wii{	background-image:url(wii/twii.png);
+		background-repeat: no-repeat;
+}
+.psp{	background-image:url(psp/tpsp.png);
+		background-repeat: no-repeat;
+}
+.n64{	background-image:url(retro/tsnes.png);
+		background-repeat: no-repeat;
 }
 
-#n64{
-	display:none;
-}
+
+
+#pc{	display:none;	}
+#xb1{	display:none;	}
+#wiiu{	display:none;	}
+#ps4{	display:none;	}
+#ds{	display:none;	}
+#tds{	display:none;	}
+#gba{	display:none;	}
+#gbc{	display:none;	}
+#gc{	display:none;	}
+#wii{	display:none;	}
+#psp{	display:none;	}
+#n64{	display:none;	}

@@ -1,10 +1,10 @@
 $(document).ready(function() {
-    $('.xb1,.n64,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp,.pc').click(function() {
+    $('.xb1,.n64,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.gc,.wii,.psp,.pc').click(function() {
      $('#rem').hide();
     });
 });
 $(document).ready(function() {
-    $('.xb1,.n64,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
+    $('.xb1,.n64,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#pc').hide();
     });
 });
@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.n64,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
+    $('.pc,.n64,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#xb1').hide();
     });
 });
@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.n64,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
+    $('.pc,.xb1,.n64,.ps4,.ds,.tds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#wiiu').hide();
     });
 });
@@ -37,7 +37,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.n64,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.n64,.ds,.tds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#ps4').hide();
     });
 });
@@ -48,7 +48,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.n64,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.n64,.tds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#ds').hide();
     });
 });
@@ -64,13 +64,13 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.3ds').click(function() {
+    $('.tds').click(function() {
      $('#tds').show();
      ranPic("tds")
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.ds,.3ds,.n64,.gbc,.gc,.wii,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.ds,.tds,.n64,.gbc,.gc,.wii,.psp').click(function() {
      $('#gba').hide();
     });
 });
@@ -81,7 +81,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.ds,.3ds,.gba,.n64,.gc,.wii,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.ds,.tds,.gba,.n64,.gc,.wii,.psp').click(function() {
      $('#gbc').hide();
     });
 });
@@ -92,7 +92,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.n64,.wii,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.n64,.wii,.psp').click(function() {
      $('#gc').hide();
     });
 });
@@ -103,7 +103,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.n64,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.gc,.n64,.psp').click(function() {
      $('#wii').hide();
     });
 });
@@ -114,7 +114,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.n64').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.gc,.wii,.n64').click(function() {
      $('#psp').hide();
     });
 });
@@ -125,7 +125,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.pc,.xb1,.wiiu,.ps4,.ds,.3ds,.gba,.gbc,.gc,.wii,.psp').click(function() {
+    $('.pc,.xb1,.wiiu,.ps4,.ds,.tds,.gba,.gbc,.gc,.wii,.psp').click(function() {
      $('#n64').hide();
     });
 });

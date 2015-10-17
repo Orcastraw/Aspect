@@ -12,143 +12,209 @@
 
 <div id="buttons">
 		<ul style="list-style:none;">
-		<li class="pc"><img src="pc/mouse.png" width="40px" height="40px" />PC</li>
-		<li class="xb1"><img src="xb1/xb1.png" width="40px" height="40px" />Xbox</li>
-		<li class="wiiu"><img src="wiiu/wiiu.png" width="40px" height="40px" />Wii U</li>
-		<li class="ps4"><img src="ps4/ps4.png" width="40px" height="40px" />PS4/3</li>
-		<li class="ds"><img src="ds/ds.png" width="40px" height="40px" />DS</li>
-		<li class="3ds"><img src="3ds/3ds.png" width="40px" height="40px" />3DS</li>
-		<li class="gba"><img src="gba/gba.png" width="40px" height="40px" />GBA</li>
-		<li class="gbc"><img src="gbc/gbc.png" width="40px" height="40px" />GBC</li>
-		<li class="gc"><img src="gamecube/gamecube.png" width="40px" height="40px" />GC</li>
-		<li class="wii"><img src="wii/wii.png" width="40px" height="40px" />Wii</li>
-		<li class="psp"><img src="psp/psp.png" width="40px" height="40px" />PSP</li>
-		<li class="n64"><img src="retro/snes.png" width="40px" height="40px" />Retro</li>
+			<li  class="pc">
+			<button type="button">PC</button>
+			</li>
+			<li class="xb1">
+			<button type="button">Xbox</button>
+			</li>
+			<li class="wiiu">
+			<button type="button">Wii U</button>
+			</li>
+			<li class="ps4">
+			<button type="button">PS4/3</button>
+			</li>
+			<li class="ds">
+			<button type="button">DS</button>
+			</li>
+			<li class="tds">
+			<button type="button">3DS</button>
+			</li>
+			<li class="gba">
+			<button type="button">GBA</button>
+			</li>
+			<li class="gbc">
+			<button type="button">GBC</button>
+			</li>
+			<li class="gc">
+			<button type="button">GC</button>
+			</li>
+			<li class="wii">
+			<button type="button">Wii</button>
+			</li>
+			<li class="psp">
+			<button type="button">PSP</button>
+			</li>
+			<li class="n64">
+			<button type="button">Other Retro</button>
+			</li>
 		</ul>
-
-
 </div>
 
 
 <div id="rem" class="info">
-<p >
- This is Aspect Tool, which will help you stream games at the proper and highest quality for its pixel ratios.
-</p>
+	<div class="intro">
+		<p>
+		This is Aspect Tool, which will help you stream games at the proper and highest quality for its pixel ratios.
+		</p>
+	</div>
 </div>
+
 <div id="pc" class="info" >
-<p >
- <img src="pc/pc1hd.png" id="pcpic"/>
- PC games are flexible and typically can scale to whatever resolution you give them. 16:9 is the most common and preferable, but some games support 16:9 & 4:3. Here's an example of both.
- <img src="pc/pc1hd.png" id="pc1pic"/>
-</p>
+	<div class="details">
+		<p>
+ 		PC games are flexible and typically can scale to whatever resolution you give them. 16:9 is the most common and preferable, but some games support 16:9 & 4:3. Here's an example of both.
+		</p>
+	</div>
+	<div class="examples">
+		<p>4:3</p>
+		<img src="pc/pc1hd.png" id="pc1pic"/>
+		<p>16:9</p>
+		<img src="pc/pc1hd.png" id="pcpic"/>
+	</div>
 </div>
 
 <div id="xb1" class="info" >
-<p >
- <img src="xb1/xboxIMG.png" id="xb1pic"/>
- All Xbox 360 and Xbox One games are in 16:9, and should look like this
-</p>
-<figcaption>
-The Xbox 360 also supports 4:3 for both Xbox 360 and backwards compatability Xbox games.
-</figcaption>
+	<div class="details">
+		<p>
+ 		All Xbox 360 and Xbox One games are in 16:9, and should look like the image on the right.
+ 		The Xbox 360 also supports 4:3 for both Xbox 360 and backwards compatability Xbox games.
+		</p>
+	</div>
+	<div class="examples">
+		<img src="xb1/xboxIMG.png" id="xb1pic"/>
+	</div>
 </div>
 
-<div id="wiiu" class="info" >
-<p >
-<img src="wiiu/wiiu1.png" id="wiiupic"/>
-All native WiiU games are 16:9, and should look like this.
-<figcaption> However for Virtual Console games, you should ignore the black bars and refer to the respective games column's for how to crop them.
-</figcaption>
-</p>
+<div id="wiiu" class="info">
+	<div class="details">
+		<p>
+		All native WiiU games are 16:9, and should look like the image on the right.
+		However for Virtual Console games, you should ignore the black bars and refer to the respective games column's for how to crop them.
+		</p>
+	</div>
+	<div class="examples">
+		<img src="wiiu/wiiu1.png" id="wiiupic"/>
+	</div>
 </div>
 
 <div id="ps4" class="info" >
-<p >
-<img src="ps4/ps4IMG.png" id="ps4pic"/>
-All PS3 and PS4 games are in 16:9, and should look like this.
-<figcaption>However for PS1 games on PS3, you should refer to the Retro Games' column.
-</figcaption>
-</p>
+	<div class="details">
+		<p>
+		All PS3 and PS4 games are in 16:9, and should look like this.
+		However for PS1 games on PS3, you should refer to the Retro Games' column.
+		</p>
+	</div>
+		<div class="examples">
+		<img src="ps4/ps4IMG.png" id="ps4pic"/>	
+	</div>
 </div>
 
-<div id="ds" class="info" >
-Both DS screens are in 4:3, and should look like this.<img src="ds/dsIMG.png" id="dspic"/>
-    <figcaption> Generally it's reccomended for DS games that when streamed, you have the top screen bigger than the bottom and have the bottom on the side.</figcaption>
-    </div>
+<div id="ds" class="info">
+	<div class="details">
+		<p>
+		Both DS screens are in 4:3, and should look like this.
+    	Generally it's reccomended for DS games that when streamed, you have the top screen bigger than the bottom and have the bottom on the side.
+    	</p>
+	</div>
+	<div class="examples">
+	<img src="ds/dsIMG.png" id="dspic"/>
+	</div>
+</div>
 
 <div id="tds" class="info" >
-<div class="details">
-	<p >
-	The 3DS' 2 screens are differing ratios, with the top being a wider, 5:3 aspect ratio and the bottom being in 4:3.
-	</p>
-</div>
-<img src="3ds/3ds3.png" class="pic" id="tdspic"/>
+	<div class="details">
+		<p>
+		The 3DS' 2 screens are differing ratios, with the top being a wider, 5:3 aspect ratio and the bottom being in 4:3. Generally it's reccomended for DS games that when streamed, you have the top screen bigger than the bottom and have the bottom on the side.
+		</p>
+		</div>
+	<div class="examples">
+	<img src="3ds/3ds3.png" class="pic" id="tdspic"/>
+	</div>
 </div>
 
 <div id="gba" class="info" >
-<p>
-GBA games are in the 3:2 aspect ratio, and should look like this.<img src="gba/gba1.png" id="gbapic"/>
-
-<figcaption>When streaming or capturing the game it's fine to show it with either the original aspect ratio or a 4:3 border if a Gameboy Player is being used.
-</figcaption>
-<img src="gba/gbaplayerIMG.png"/>
-</p>
+	<div class="details">
+		<p>
+		GBA games are in the 3:2 aspect ratio, and should look like this.
+		When streaming or capturing the game it's fine to show it with either the original aspect ratio or a 4:3 border if a Gameboy Player is being used.
+		</p>
+	</div>
+	<div class="examples">
+		<img src="gba/gba1.png" id="gbapic"/>
+		<img src="gba/gbaplayerIMG.png"/>
+	</div>
 </div>
 
 <div id="gbc" class="info" >
-<p >
-Gameboy and Gameboy Color games have a native resolution of 160x144, which loosely translates to 10:9, and should look like this.<img src="gbc/gbc1.png" id="gbcpic"/>
-</p>
-<figcaption>
-When streaming or capturing the game it's fine to show it with either the original aspect ratio or a 4:3 border if a Gameboy Player is being used.
-</figcaption>
+	<div class="details">
+		<p>
+		Gameboy and Gameboy Color games have a native resolution of 160x144, which loosely translates to 10:9, and should look like this.
+		When streaming or capturing the game it's fine to show it with either the original aspect ratio or a 4:3 border if a Gameboy Player is being used.
+		</p>
+	</div>
+	<div class="examples">
+		<img src="gbc/gbc1.png" id="gbcpic"/>
+	</div>
 </div>
 
 <div id="gc" class="info" >
-<p >
-<img src="gamecube/gcIMG.png" id="gcpic"/>
-Gamecube games are special in that they have largely UNIQUE aspect ratios.
-<figcaption>
-Some GameCube games also support 16:9, which is easy and nice, and sadly, very rare.
-</figcaption>
-</p>
+	<div class="details">
+		<p>
+		Gamecube games are special in that they have largely UNIQUE aspect ratios.
+		Some GameCube games also support 16:9, which is easy and nice, and sadly, very rare.
+			</p>
+	</div>
+	<div class="examples">
+		<img src="gamecube/gcIMG.png" id="gcpic"/>
+	</div>
 </div>
 
 <div id="wii" class="info" >
-<p ><img src="wii/wiiIMG.png" id="wiipic"/>
-Most Wii games support 4:3 AND 16:9. However some only support one or the other. To select an aspect ratio, simply select Widescreen or Standard in Wii System Settings for 16:9 and 4:3 respectively. 
-</p>
+	<div class="details">
+		<p>
+		Most Wii games support 4:3 AND 16:9. However some only support one or the other. To select an aspect ratio, simply select Widescreen or Standard in Wii System Settings for 16:9 and 4:3 respectively. 
+		</p>
+	</div>
+	<div class="examples">
+		<img src="wii/wiiIMG.png" id="wiipic"/>
+	</div>
 </div>
 
 <div id="psp" class="info" >
-<p >
-PSP games are in 30:17, which is 2 pixels short of 16:9. The difference is minor, and you should just treat it like 16:9. PS Vita games are all 16:9 as well. 
-        Your games should look like this.<img src="psp/pspIMG.png" id="psppic"/>
-<figcaption>For streaming PS1 games off of a PSP, refer to the Retro Games' column. 
-</figcaption>
-</p>
-
+	<div class="details">
+		<p>
+		PSP games are in 30:17, which is 2 pixels short of 16:9. The difference is minor, and you should just treat it like 16:9. PS Vita games are all 16:9 as well. 
+    	Your games should look like this.
+		For streaming PS1 games off of a PSP, refer to the Retro Games' column.
+		</p>
+	</div>
+	<div class="examples">
+		<img src="psp/pspIMG.png" id="psppic"/>
+	</div>
 </div>
 
 <div id="n64" class="info" >
-	<div id="text">
+	<div class="details">
 		<p>
 		Most retro games are 4:3, and should look like this. Once you get your game set up, you can stream it looking like this.
 		</p>
 	</div>
-	<div>
-		
+	<div class="examples">
+		<p>4:3 Gamefeed</p>
 		<img src="retro/ret1.png" id="n64pic"/>
-		<img src="arrow.png" id="arrow"/>
+		<p>Game fed into stream output</p>
+		<!--<img src="arrow.png" id="arrow"/> -->
 		<img src="example/retro_layout.png" id="n64layout"/>
 	</div>
 </div>
 
 
-
 <div id="footer">
-<a href="https://www.twitter.com/orcastraw"/>
-<img src="twitter.png" width="30px" height="30px"/>
+	<a href="https://www.twitter.com/orcastraw"/>
+	<img src="twitter.png" width="30px" height="30px">
+	</img>
+	</a>
 </div>
 
 </html>
